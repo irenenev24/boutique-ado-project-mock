@@ -62,6 +62,15 @@ body {
 .bg-black:hover{
     background: linear-gradient(to right, #AFB1AE, #E6E9E5, #B1B1B1, #E6E9E5, #C0C0C0);
 }
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
