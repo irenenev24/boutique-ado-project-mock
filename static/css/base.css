@@ -28,13 +28,13 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
 }
 
@@ -56,9 +56,12 @@ body {
     border: 1px solid black !important;
 }
 .bg-black {
-    background: #000 !important;
+    color: #000 !important;
+    background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
 }
-
+.bg-black:hover{
+    background: linear-gradient(to right, #AFB1AE, #E6E9E5, #B1B1B1, #E6E9E5, #C0C0C0);
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -82,3 +85,34 @@ body {
         padding-top: 164px;
     }
 }
+
+
+.logo-gold{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-family: 'Caveat',cursive;
+    letter-spacing: 5px;
+    font-size: 90px;
+    font-weight: bold;
+    background-image: linear-gradient(
+     to right,
+     #462523 0,
+     #cb9b51 22%, 
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+     );
+    color:transparent;
+    -webkit-background-clip:text;
+ 
+ }
+ .logo-font-small{
+     font-family:'Lato', serif;
+     font-size: 45px; 
+     letter-spacing: .2rem;
+ }
+
